@@ -23,14 +23,15 @@ input[type="submit"] {
 body {
   -webkit-font-smoothing: antialiased;
   background-color: white;
-  color: #333;
-  font-family: "Apercu Regular", Calibri, sans-serif;
+  color: #3c3d3b;
+  font-family: Calibri, sans-serif;
   font-size: 1em;
   line-height: 1.5; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "CalibreBlack", Calibri, sans-serif;
   line-height: 1.25em;
+  color: #3c3d3b;
   margin: 0;
   text-rendering: optimizeLegibility; }
 
@@ -653,7 +654,7 @@ h1, h2, .h2 {
 
 #banner {
   background: #3c3d3b;
-  width: 50%;
+  width: 30%;
   height: 100vh;
   bottom: 0;
   left: 0;
@@ -703,7 +704,7 @@ h1, h2, .h2 {
 
 h1#city, #site-title h1 {
   padding: 0 20px 35px 20px;
-  color: white;
+  color: #3c3d3b;
   text-align: center; }
   h1#city .guide-to, h1#city .sponsored-by, #site-title h1 .guide-to, #site-title h1 .sponsored-by {
     display: block;
@@ -758,7 +759,7 @@ h1#city {
   background: #B3E6D3;
   height: 100%;
   position: absolute;
-  left: 50%;
+  left: 30%;
   top: 0; }
   #neighborhoods ul, #cities ul {
     padding: 0;
@@ -767,7 +768,7 @@ h1#city {
     line-height: 0;
     overflow-y: hidden; }
     #neighborhoods ul li, #cities ul li {
-      width: 33.33%;
+      width: 30%;
       background: #82D7C0;
       display: inline-block;
       vertical-align: top;
@@ -800,7 +801,9 @@ h1#city {
         padding: 25px 15px;
         text-align: center;
         position: relative;
-        box-sizing: initial; }
+        box-sizing: initial;
+        border-color: white;
+        border-style: solid;}
         #neighborhoods ul li .box.adwrap, #cities ul li .box.adwrap {
           height: 243px;
           padding: 0;
@@ -829,8 +832,7 @@ h1#city {
         color: rgba(18, 0, 121, 0.5) !important; }
 
 #neighborhoods {
-  width: 42%;
-  border-bottom: 1px solid #3c3d3b; }
+  width: 40%;}
 
   #neighborhoods ul li .table {
     height: 100px;
@@ -1104,9 +1106,9 @@ h1#city {
 
 #mapwrap {
   position: fixed;
-  left: 92%;
+  left: 66.5%;
   transition: .25s;
-  width: 9%;
+  width: 100%;
   height: 100%;
   z-index: 1; }
   #mapwrap:hover {
@@ -1332,7 +1334,7 @@ a[href^="https://maps.google.com/maps"] {
 
 @media (min-width: 1280px) {
   .cities-page #banner {
-    width: 35%; }
+    width: 40%; }
   #site-title h1 .sp:first-child {
     display: block; }
   #site-title h1 .sp:nth-child(3) {
@@ -1379,7 +1381,7 @@ a[href^="https://maps.google.com/maps"] {
   #neighborhoods, #cities {
     position: relative;
     left: 0;
-    width: 100%; }
+    width: 200%; }
   #cities ul li .table {
     padding: 20px 5px 5px; }
   #cities ul li .ambassador-deets {
