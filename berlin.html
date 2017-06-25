@@ -31,8 +31,8 @@
     <div class="wrap">
         <a id="click-overlay" class="close" onclick=""></a>
 
-        <!--
-<nav id="cities-nav" class="full_page_nav">
+
+        <nav id="cities-nav" class="full_page_nav">
 
             <div class="trigger__close circled">
                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="37.895px" height="37.895px" viewBox="0 0 37.895 37.895" enable-background="new 0 0 37.895 37.895" xml:space="preserve">
@@ -53,7 +53,7 @@
                 <p>Mikrokiez is a cluster of micro neighbourhoods in Berlin</p>
                 <div class="cities-nav-content"></div>
             </div>
-        </nav>-->
+        </nav>
 
         <div id="banner">
             <div id="share_links">
@@ -68,7 +68,9 @@
                 <div class="header__nav">
 
                     <div class="header__share">
-                      <h3>Mikrokiez | Berlin</h3>
+                        <h3>Mikrokiez | Berlin</h3>
+                        <!--
+
                         <span class="header__links trigger__cities">
 	<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 		 width="38px" height="38px" viewBox="0 0 37.655 37.655" enable-background="new 0 0 37.655 37.655" xml:space="preserve">
@@ -92,28 +94,30 @@
  	</g>
 </svg>
 				      </a>
-				    </span>
+				    </span>        					-->
                     </div>
                 </div>
 
             </header>
+            <!--
+
             <div>
-            <p>For a lazy sunday afternoon go to: <br>
-            <br>For coffee & cake go to: <br>
-            <br>For chilled afterwork drinks go to: </p>
+                <p>For a lazy sunday afternoon go to: <br>
+                    <br>For coffee & cake go to: <br>
+                    <br>For chilled afterwork drinks go to: </p>
+            </div>
+-->
+            <div id="arrow-down">
+                <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38"><g stroke="#FFF" stroke-width="2" stroke-miterlimit="10"><circle fill="#B3E6D3" cx="19" cy="19" r="18"/><path class="fill" d="M19 10.94V23.7"/><path fill="none" d="M25.36 18.3L19 24.66l-6.36-6.36"/></g></svg>
             </div>
 
-                <div id="arrow-down">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38"><g stroke="#FFF" stroke-width="2" stroke-miterlimit="10"><circle fill="#B3E6D3" cx="19" cy="19" r="18"/><path class="fill" d="M19 10.94V23.7"/><path fill="none" d="M25.36 18.3L19 24.66l-6.36-6.36"/></g></svg>
-                </div>
-
-            </div>
         </div>
-        <div id="mapwrap" class="map">
-            <div id="map"></div>
-        </div>
+    </div>
+    <div id="mapwrap" class="map">
+        <div id="map"></div>
+    </div>
 
-        <svg id="map_icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="39.5px" height="39.083px" viewBox="0 0 39.5 39.083" enable-background="new 0 0 39 38.583" xml:space="preserve">
+    <svg id="map_icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="39.5px" height="39.083px" viewBox="0 0 39.5 39.083" enable-background="new 0 0 39 38.583" xml:space="preserve">
 	<g>
 		<defs>
 			<rect id="SVGID_1_" x="-48" y="-79.75" width="200" height="200"/>
@@ -129,536 +133,540 @@
 	<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="16.878" y1="12.892" x2="16.878" y2="27.925"/>
 	<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="22.458" y1="10.914" x2="22.458" y2="25.947"/>
 	</svg>
-        <button id="mapclose" class="mapclose">
+    <button id="mapclose" class="mapclose">
 		  <div class="trigger__close circled">
 		  	<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="37.895px" height="37.895px" viewBox="0 0 37.895 37.895" enable-background="new 0 0 37.895 37.895" xml:space="preserve"><g><g><circle fill="#B3E6D3" stroke="#FFFFFF" stroke-width="1.8947" stroke-miterlimit="10" cx="18.947" cy="18.947" r="18"/></g><line fill="none" stroke="#FFFFFF" stroke-width="1.8947" stroke-miterlimit="10" x1="25.861" y1="25.983" x2="11.861" y2="11.983"/><line fill="none" stroke="#FFFFFF" stroke-width="1.8947" stroke-miterlimit="10" x1="11.861" y1="25.983" x2="25.861" y2="11.983"/></g></svg>
 		</div>
 	</button>
 
-        <div id="neighborhoods">
-            <nav>
-                <ul>
+    <div id="neighborhoods">
+        <nav>
+            <ul>
 
-                    <!--
+                <!--
 					-->
-                    <li id="hood_Boxhagener Platz" style="background:#B3E6D3" data-name="Boxhagener Platz" data-curator="Farmers market & flea markets"   data-color="#0FC9E5" data-coords="52.5085379,13.4557724" class="">
+                <li id="hood_Boxhagener Platz" style="background:#B3E6D3" data-name="Boxhagener Platz" data-curator="Farmers market & flea markets" data-color="#0FC9E5" data-coords="52.5085379,13.4557724" class="">
 
-                        <ul style="display:none">
+                    <ul style="display:none">
 
-                            <li id="place_schwesterherz" class="place" data-name="Schwesterherz" data-coords="52.5095928,13.4600291" data-color="#0FC9E5" data-url="/schwesterherz" data-tag="shops" data-src=""></li>
-                            <li id="place_hausen" class="place" data-name="HAusen" data-coords="52.5100414,13.4608949" data-color="#0FC9E5" data-url="/hausen" data-tag="shops" data-src=""></li>
-                            <li id="place_boxhagener-platz" class="place" data-name="Boxhagener Platz" data-coords="52.51087335, 13.45964629" data-color="#0FC9E5" data-url="/boxhagener-platz" data-tag="parks" data-src=""></li>
-                            <li id="place_aufschnitt" class="place" data-name="Aufschnitt" data-coords="" data-color="#0FC9E5" data-url="/aufschnitt" data-tag="shops" data-src="" data-des="meat pillow shop"></li>
-                            <li id="place_neumann" class="place" data-name="Neumann" data-coords="52.5103059,13.4581311" data-color="#0FC9E5" data-url="/neumann" data-tag="coffeetea" data-src=""></li>
-                            <li id="place_happy-baristas" class="place" data-name="Happy Baristas" data-coords="52.505255,13.469056" data-color="#0FC9E5" data-url="/happy-baristas" data-tag="coffeetea" data-src=""></li>
-                            <li id="place_silo-cafe" class="place" data-name="Silo Cafe" data-coords="52.510044,13.458342" data-color="#0FC9E5" data-url="/silo-cafe" data-tag="coffeetea" data-src=""></li>
-                            <li id="place_marafina" class="place" data-name="Marafina Sudanese Falafel" data-coords="52.5086451,13.4620787" data-color="#0FC9E5" data-url="/urban-spree" data-tag="food" data-src=""></li>
-                            <li id="place_goodies" class="place" data-name="Goodies" data-coords="52.511526,13.452595" data-color="#0FC9E5" data-url="/goodies" data-tag="food" data-src=""></li>
-                            <li id="place_schwesterherz" class="place" data-name="Schwesterherz" data-coords="52.5095928,13.4600291" data-color="#0FC9E5" data-url="/schwesterherz" data-tag="shops" data-src=""></li>
-                            <li id="place_Szimpla-Kaffeehaus" class="place" data-name="Szimpla Kaffeehaus" data-coords="52.5076232,13.4516458" data-color="#0FC9E5" data-url="/Szimpla-Kaffeehaus" data-tag="food" data-src=""></li>
-                        </ul>
-                        <div class="box">
-                            <div class="table">
-                                <div class="table-cell">
-                                    <h2 class="">Boxhagener Platz</h2>
-                                    <p>Farmers market, flea markets and food</p>
-                                </div>
+                        <li id="place_schwesterherz" class="place" data-name="Schwesterherz" data-coords="52.5095928,13.4600291" data-color="#0FC9E5" data-url="/schwesterherz" data-tag="shops" data-src=""></li>
+                        <li id="place_hausen" class="place" data-name="HAusen" data-coords="52.5100414,13.4608949" data-color="#0FC9E5" data-url="/hausen" data-tag="shops" data-src=""></li>
+                        <li id="place_boxhagener-platz" class="place" data-name="Boxhagener Platz" data-coords="52.51087335, 13.45964629" data-color="#0FC9E5" data-url="/boxhagener-platz" data-tag="parks" data-src=""></li>
+                        <li id="place_aufschnitt" class="place" data-name="Aufschnitt" data-coords="" data-color="#0FC9E5" data-url="/aufschnitt" data-tag="shops" data-src="" data-des="meat pillow shop"></li>
+                        <li id="place_neumann" class="place" data-name="Neumann" data-coords="52.5103059,13.4581311" data-color="#0FC9E5" data-url="/neumann" data-tag="coffeetea" data-src=""></li>
+                        <li id="place_happy-baristas" class="place" data-name="Happy Baristas" data-coords="52.505255,13.469056" data-color="#0FC9E5" data-url="/happy-baristas" data-tag="coffeetea" data-src=""></li>
+                        <li id="place_silo-cafe" class="place" data-name="Silo Cafe" data-coords="52.510044,13.458342" data-color="#0FC9E5" data-url="/silo-cafe" data-tag="coffeetea" data-src=""></li>
+                        <li id="place_marafina" class="place" data-name="Marafina Sudanese Falafel" data-coords="52.5086451,13.4620787" data-color="#0FC9E5" data-url="/urban-spree" data-tag="food" data-src=""></li>
+                        <li id="place_goodies" class="place" data-name="Goodies" data-coords="52.511526,13.452595" data-color="#0FC9E5" data-url="/goodies" data-tag="food" data-src=""></li>
+                        <li id="place_schwesterherz" class="place" data-name="Schwesterherz" data-coords="52.5095928,13.4600291" data-color="#0FC9E5" data-url="/schwesterherz" data-tag="shops" data-src=""></li>
+                        <li id="place_Szimpla-Kaffeehaus" class="place" data-name="Szimpla Kaffeehaus" data-coords="52.5076232,13.4516458" data-color="#0FC9E5" data-url="/Szimpla-Kaffeehaus" data-tag="food" data-src=""></li>
+                    </ul>
+                    <div class="box">
+                        <div class="table">
+                            <div class="table-cell">
+                                <h2 class="">Boxhagener Platz</h2>
+                                <p>Farmers market, flea markets and food</p>
                             </div>
                         </div>
-                        </a>
-                    </li>
-                    <!--
-				-->
-        <!--
--->
-        <li id="hood_ostkreuz" style="background:#B3E6D3" data-name="Ostkreuz" data-curator=""   data-color="#D68680" data-coords="52.505255,13.46905" class="">
-            <ul style="display:none">
-                <li id="place_Café Haferkater" class="place" data-name="Café Haferkater" data-coords="52.5073322,13.468308" data-color="#D68680" data-url="/Café Haferkater" data-tag="coffeetea" data-src=""></li>
-                <li id="place_Transit" class="place" data-name="Transit" data-coords="52.5059461,13.4658135" data-color="#D68680" data-url="/Transit" data-tag="coffeetea" data-src=""></li>
-                <li id="place_happy-baristas" class="place" data-name="Happy Baristas" data-coords="52.505255,13.469056" data-color="#D68680" data-url="/happy-baristas" data-tag="coffeetea" data-src=""></li>
-            </ul>
-            <div class="box">
-                <div class="table">
-                    <div class="table-cell">
-                        <h2 class="">Ostkreuz</h2>
-                        <p>dinner and drinks</p>
                     </div>
-                </div>
-            </div>
-            </a>
-        </li>
-        <!--
+                    </a>
+                </li>
+                <!--
+				-->
+                <!--
 -->
-<!--
--->
-<li id="hood_upper-friedrichshain" style="background:#B3E6D3" data-name="Upper Friedrichshain" data-curator=""   data-color="#E1D1A3" data-coords="52.5103017, 13.4711816" >
-    <ul style="display:none">
-        <li id="place_aunt-bennies" class="place" data-name="Aunt Benny" data-coords="52.5103017, 13.4711816" data-color="#E1D1A3" data-url="/aunt-bennies" data-tag="food" data-src="https://format-com-cld-res.cloudinary.com/image/private/s--NIcbbdIy--/c_fill,g_center,h_100,w_100/a_auto,fl_keep_iptc.progressive,q_95/v1/2a45e7e4f291eece756b183d34f9b3d0/AuntBenny_extra_01_copy.jpg"></li>
-    </ul>
-    <div class="box">
+                <li id="hood_ostkreuz" style="background:#B3E6D3" data-name="Ostkreuz" data-curator="" data-color="#D68680" data-coords="52.505255,13.46905" class="">
+                    <ul style="display:none">
+                        <li id="place_Café Haferkater" class="place" data-name="Café Haferkater" data-coords="52.5073322,13.468308" data-color="#D68680" data-url="/Café Haferkater" data-tag="coffeetea" data-src=""></li>
+                        <li id="place_Transit" class="place" data-name="Transit" data-coords="52.5059461,13.4658135" data-color="#D68680" data-url="/Transit" data-tag="coffeetea" data-src=""></li>
+                        <li id="place_rummels-bucht" class="place" data-name="Rummels Bucht" data-coords="52.5023216,13.4715356" data-color="#D68680" data-url="/rummels-bucht" data-tag="party" data-src=""></li>
 
-        <div class="table">
-            <div class="table-cell">
+                        <li id="place_happy-baristas" class="place" data-name="Happy Baristas" data-coords="52.505255,13.469056" data-color="#D68680" data-url="/happy-baristas" data-tag="coffeetea" data-src=""></li>
 
-                <h2 class="">Upper Friedrichshain</h2>
-                <p>cafes and cute shops</p>
-            </div>
-        </div>
-    </div>
-    </a>
-</li>
-<!--
--->
-                    <!--
-					-->
-                    <li id="hood_Oranienstraße" style="background:#B3E6D3" data-name="Oranienstraße" data-curator=""   data-color="#C14A44" data-coords="52.503382, 13.41011" >
-                        <ul style="display:none">
-
-                            <li id="place_nano" class="place" data-name="Nano kaffee" data-coords="52.5008727, 13.4172299" data-color="#C14A44" data-url="" data-tag="coffeetea" data-src=""></li>
-                            <li id="place_Companion-Coffee" class="place" data-name="Companion Coffee" data-coords="52.5011459, 13.4210625" data-color="#C14A44" data-url="" data-tag="coffeetea" data-src=""></li>
-                            <li id="place_Companion-Coffee" class="place" data-name="Voo Store" data-coords="52.5011460, 13.4210625" data-color="#C14A44" data-url="" data-tag="coffeetea" data-src=""></li>
-                            <li id="place_Companion-Coffee" class="place" data-name="betahaus" data-coords="52.5025407, 13.4121985" data-color="#C14A44" data-url="" data-tag="coffeetea" data-src=""></li>
-                            <li id="place_Companion-Coffee" class="place" data-name="Modulor" data-coords="52.503382, 13.41011" data-color="#C14A44" data-url="" data-tag="coffeetea" data-src=""></li>
-                            <li id="place_Companion-Coffee" class="place" data-name="Prinzessinnengärten" data-coords="52.50310236, 13.4110827" data-color="#C14A44" data-url="" data-tag="coffeetea" data-src=""></li>
-
-                        </ul>
-                        <div class="box">
-                            <div class="table">
-                                <div class="table-cell">
-                                    <h2 class="">Oranienstraße</h2>
-                                    <p>cafes and bars</p>
-                                </div>
+                    </ul>
+                    <div class="box">
+                        <div class="table">
+                            <div class="table-cell">
+                                <h2 class="">Ostkreuz</h2>
+                                <p>dinner and drinks</p>
                             </div>
                         </div>
-                        </a>
-                    </li>
-                    <!--
+                    </div>
+                    </a>
+                </li>
+                <!--
+-->
+                <!--
+-->
+                <li id="hood_upper-friedrichshain" style="background:#B3E6D3" data-name="Upper Friedrichshain" data-curator="" data-color="#E1D1A3" data-coords="52.5103017, 13.4711816">
+                    <ul style="display:none">
+                        <li id="place_aunt-bennies" class="place" data-name="Aunt Benny" data-coords="52.5103017, 13.4711816" data-color="#E1D1A3" data-url="/aunt-bennies" data-tag="food" data-src="https://format-com-cld-res.cloudinary.com/image/private/s--NIcbbdIy--/c_fill,g_center,h_100,w_100/a_auto,fl_keep_iptc.progressive,q_95/v1/2a45e7e4f291eece756b183d34f9b3d0/AuntBenny_extra_01_copy.jpg"></li>
+                    </ul>
+                    <div class="box">
+
+                        <div class="table">
+                            <div class="table-cell">
+
+                                <h2 class="">Upper Friedrichshain</h2>
+                                <p>cafes and cute shops</p>
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                </li>
+                <!--
+-->
+                <!--
+					-->
+                <li id="hood_Oranienstraße" style="background:#B3E6D3" data-name="Oranienstraße" data-curator="" data-color="#C14A44" data-coords="52.503382, 13.41011">
+                    <ul style="display:none">
+
+                        <li id="place_nano" class="place" data-name="Nano kaffee" data-coords="52.5008727, 13.4172299" data-color="#C14A44" data-url="" data-tag="coffeetea" data-src=""></li>
+                        <li id="place_Companion-Coffee" class="place" data-name="Companion Coffee" data-coords="52.5011459, 13.4210625" data-color="#C14A44" data-url="" data-tag="coffeetea" data-src=""></li>
+                        <li id="place_Companion-Coffee" class="place" data-name="Voo Store" data-coords="52.5011460, 13.4210625" data-color="#C14A44" data-url="" data-tag="coffeetea" data-src=""></li>
+                        <li id="place_Companion-Coffee" class="place" data-name="betahaus" data-coords="52.5025407, 13.4121985" data-color="#C14A44" data-url="" data-tag="coffeetea" data-src=""></li>
+                        <li id="place_Companion-Coffee" class="place" data-name="Modulor" data-coords="52.503382, 13.41011" data-color="#C14A44" data-url="" data-tag="coffeetea" data-src=""></li>
+                        <li id="place_Companion-Coffee" class="place" data-name="Prinzessinnengärten" data-coords="52.50310236, 13.4110827" data-color="#C14A44" data-url="" data-tag="coffeetea" data-src=""></li>
+
+                    </ul>
+                    <div class="box">
+                        <div class="table">
+                            <div class="table-cell">
+                                <h2 class="">Oranienstraße</h2>
+                                <p>cafes and bars</p>
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                </li>
+                <!--
         -->
-                    <!--
+                <!--
           -->
-          <li id="hood_kreuzberg-canal" style="background:#B3E6D3" data-name="Kreuzberg Canal" data-curator="perfect for lazy afternoons in the summer"   data-color="#E5AED1" data-coords="52.496069, 13.422091">
-              <ul style="display:none">
-                  <li id="place_Concierge-Coffee" class="place" data-name="Concierge Coffee" data-coords="52.496069, 13.422091" data-color="#E5AED1" data-url="" data-tag="coffeetea" data-src=""></li>
-                  <li id="place_Concierge-Coffee" class="place" data-name="Concierge Coffee" data-coords="52.496070, 13.422091" data-color="#E5AED1" data-url="" data-tag="coffeetea" data-src=""></li>
-                  <li id="place_Das-Hotel" class="place" data-name="Das Hotel" data-coords="52.4965366, 13.4204505" data-color="#E5AED1" data-url="" data-tag="bars" data-src=""></li>
+                <li id="hood_kreuzberg-canal" style="background:#B3E6D3" data-name="Kreuzberg Canal" data-curator="perfect for lazy afternoons in the summer" data-color="#E5AED1" data-coords="52.496069, 13.422091">
+                    <ul style="display:none">
+                        <li id="place_Concierge-Coffee" class="place" data-name="Concierge Coffee" data-coords="52.496069, 13.422091" data-color="#E5AED1" data-url="" data-tag="coffeetea" data-src=""></li>
+                        <li id="place_Concierge-Coffee" class="place" data-name="Concierge Coffee" data-coords="52.496070, 13.422091" data-color="#E5AED1" data-url="" data-tag="coffeetea" data-src=""></li>
+                        <li id="place_Das-Hotel" class="place" data-name="Das Hotel" data-coords="52.4965366, 13.4204505" data-color="#E5AED1" data-url="" data-tag="bars" data-src=""></li>
 
-                  <li id="place_ManuTeeFaktur" class="place" data-name="ManuTeeFaktur" data-coords="52.4964535, 13.4207325" data-color="#E5AED1" data-url="" data-tag="coffeetea" data-src=""></li>
-              </ul>
-              <div class="box">
-                  <div class="table">
-                      <div class="table-cell">
-                          <h2 class="">Kreuzberg Canal</h2>
-                          <p>perfect for lazy afternoons in the summer</p>
-                      </div>
-                  </div>
-              </div>
-              </a>
-          </li>
-          <!--
+                        <li id="place_ManuTeeFaktur" class="place" data-name="ManuTeeFaktur" data-coords="52.4964535, 13.4207325" data-color="#E5AED1" data-url="" data-tag="coffeetea" data-src=""></li>
+                    </ul>
+                    <div class="box">
+                        <div class="table">
+                            <div class="table-cell">
+                                <h2 class="">Kreuzberg Canal</h2>
+                                <p>perfect for lazy afternoons in the summer</p>
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                </li>
+                <!--
 -->
-          <!--
+                <!--
 -->
-                    <li id="hood_gorli" style="background:#B3E6D3" data-name="Gorli" data-curator=""   data-color="#6ECF81" data-coords="52.4965063,13.4377465" class="">
+                <li id="hood_gorli" style="background:#B3E6D3" data-name="Gorli" data-curator="" data-color="#6ECF81" data-coords="52.4965063,13.4377465" class="">
+                    <ul style="display:none">
+                        <li id="place_Görlitzer Park" class="place" data-name="Görlitzer Park" data-coords="52.4965063,13.4377465" data-color="#6ECF81" data-url="" data-tag="parks" data-src=""></li>
+                        <li id="place_fvonf-Friends-Space" class="place" data-name="fvonf Friends Space" data-coords="52.4946009, 13.4383004" data-color="#6ECF81" data-url="" data-tag="events" data-src=""></li>
+                        <li id="place_Five-Elephant" class="place" data-name="Five Elephant" data-coords="52.49347, 13.43837" data-color="#6ECF81" data-url="" data-tag="coffeetea" data-src=""></li>
+                    </ul>
+                    <div class="box">
+                        <div class="table">
+                            <div class="table-cell">
+                                <h2 class="">Gorli</h2>
+                                <p>for summer grills in the park</p>
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                </li>
+                <!--
+				-->
+                <!--
+					-->
+                <li id="hood_wrangelkiez" style="background:#B3E6D3" data-name="Wrangelkiez" data-curator="" data-color="#7C44C1" data-coords="52.50113653,13.44180326">
+                    <ul style="display:none">
+                        <li id="place_19-grams" class="place" data-name="19 grams" data-coords="52.4998956, 13.4445713" data-color="#7C44C1" data-url="" data-tag="coffeetea" data-src=""></li>
+
+                    </ul>
+                    <div class="box">
+                        <div class="table">
+                            <div class="table-cell">
+                                <h2 class="">Wrangelkiez</h2>
+                                <p>for dinner and drinks with friends</p>
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                </li>
+                <!--
+-->
+                <!--
+-->
+                <li id="hood_neukolln" style="background:#B3E6D3" data-name="Neukölln" data-curator="" data-url="/berlin/neukolln" data-color="#ffffff" data-coords="52.4773202,13.4422793" class="">
+                    <a href="/berlin/neukolln">
                         <ul style="display:none">
-                            <li id="place_Görlitzer Park" class="place" data-name="Görlitzer Park" data-coords="52.4965063,13.4377465" data-color="#6ECF81" data-url="" data-tag="parks" data-src=""></li>
-                            <li id="place_fvonf-Friends-Space" class="place" data-name="fvonf Friends Space" data-coords="52.4946009, 13.4383004" data-color="#6ECF81" data-url="" data-tag="events" data-src=""></li>
-                            <li id="place_Five-Elephant" class="place" data-name="Five Elephant" data-coords="52.49347, 13.43837" data-color="#6ECF81" data-url="" data-tag="coffeetea" data-src=""></li>
+
+                            <li id="place_os-kitchen" class="place" data-name="OS Kitchen" data-coords="52.4806440,13.4392610" data-color="#ffffff" data-url="/berlin/neukolln/os-kitchen" data-tag="food" data-src="/assets/001_os_kitchen_tag_2.jpg"></li>
+
+                            <li id="place_buchkonigin" class="place" data-name="Buchkönigin" data-coords="52.4893890,13.4263060" data-color="#ffffff" data-url="/berlin/neukolln/buchkonigin" data-tag="shops" data-src="/assets/001_MG_3620.jpg"></li>
+
+                            <li id="place_myxa" class="place" data-name="Myxa" data-coords="52.4904100,13.4266500" data-color="#ffffff" data-url="/berlin/neukolln/myxa" data-tag="food" data-src="/assets/001_Myxa-9409.jpg"></li>
+
+                            <li id="place_follerei" class="place" data-name="Föllerei" data-coords="52.4874400,13.4376500" data-color="#ffffff" data-url="/berlin/neukolln/follerei" data-tag="food" data-src="/assets/007_MG_6214.jpg"></li>
+
+                            <li id="place_lavanderia-vecchia" class="place" data-name="Lavanderia Vecchia" data-coords="52.4811400,13.4264770" data-color="#ffffff" data-url="/berlin/neukolln/lavanderia-vecchia" data-tag="food" data-src="/assets/004_Cover1.jpg"></li>
+
+                            <li id="place_beuster-bar" class="place" data-name="Beuster Bar" data-coords="52.4858300,13.4353200" data-color="#ffffff" data-url="/berlin/neukolln/beuster-bar" data-tag="food" data-src="/assets/000_Beuster_012.jpg"></li>
+
+                            <li id="place_barini" class="place" data-name="Barini" data-coords="52.4738760,13.4489900" data-color="#ffffff" data-url="/berlin/neukolln/barini" data-tag="food" data-src="/assets/007_onthegrid_barini_langesommer_alinasimmelbauer.jpg"></li>
+
+                            <li id="place_rixbox" class="place" data-name="Rixbox" data-coords="52.4793240,13.4374920" data-color="#ffffff" data-url="/berlin/neukolln/rixbox" data-tag="coffeetea" data-src="/assets/000_MG_8964-by-Matthias-Grauwinkel_b.jpg"></li>
+                            <li id="place_monotype-gmbh" class="place" data-name="Monotype GmbH" data-coords="52.4900332,13.3872316" data-color="#CE0058" data-url="/berlin/bergmannkiez/monotype-gmbh" data-tag="creativetech" data-src=""></li>
+
+                            <li id="place_h-berthold" class="place" data-name="H. Berthold AG" data-coords="52.4921288,13.385605" data-color="#CE0058" data-url="/berlin/bergmannkiez/h-berthold" data-tag="creativetech" data-src="/assets/2015-10-10-Monotype-OnTheGrid-Norman-Posselt-017.jpg"></li>
+
+                            <li id="place_zuse" class="place" data-name="Zuse" data-coords="52.4896973,13.3836015" data-color="#CE0058" data-url="/berlin/bergmannkiez/zuse" data-tag="creativetech" data-src="/assets/2015-10-10-Monotype-OnTheGrid-Norman-Posselt-040.jpg"></li>
+
+                            <li id="place_colours" class="place" data-name="Colours" data-coords="52.4900364,13.3872263,17z" data-color="#CE0058" data-url="/berlin/bergmannkiez/colours" data-tag="shops" data-src=""></li>
+
+                            <li id="place_barcomi" class="place" data-name="Barcomi's" data-coords="52.4890805,13.3916175" data-color="#CE0058" data-url="/berlin/bergmannkiez/barcomi" data-tag="food" data-src="/assets/2015-10-09-Monotype-OnTheGrid-Norman-Posselt-011.jpg"></li>
+
+                            <li id="place_chamissoplatz" class="place" data-name="Chamissoplatz" data-coords="52.4881453,13.3911676" data-color="#CE0058" data-url="/berlin/bergmannkiez/chamissoplatz" data-tag="shops" data-src="/assets/2015-10-10-Monotype-OnTheGrid-Norman-Posselt-008.jpg"></li>
+
+                            <li id="place_marheineke-markthalle" class="place" data-name="Marheineke Markthalle" data-coords="52.4896837,13.3922266" data-color="#CE0058" data-url="/berlin/bergmannkiez/marheineke-markthalle" data-tag="shops" data-src="/assets/2015-10-20-Monotype-OnTheGrid-Norman-Posselt-001.jpg"></li>
+
+                            <li id="place_liebefonts" class="place" data-name="LiebeFonts" data-coords="52.4900733,13.3894672" data-color="#CE0058" data-url="/berlin/bergmannkiez/liebefonts" data-tag="creativetech" data-src="/assets/liebefonts-10-2014-colour-out-pic.png"></li>
+
+                            <li id="place_friedhof-dreifaltigkeit-ii" class="place" data-name="Friedhof dreifaltigkeit 2" data-coords="" data-color="#CE0058" data-url="/berlin/bergmannkiez/friedhof-dreifaltigkeit-ii" data-tag="" data-src=""></li>
+
+                            <li id="place_olmuhle-an-der-havel" class="place" data-name="Ölmühle an der Havel" data-coords="52.4901421,13.3890198,18.06" data-color="#CE0058" data-url="/berlin/bergmannkiez/olmuhle-an-der-havel" data-tag="shops" data-src="/assets/_MG_4975OP.jpg"></li>
+                            <li id="place_Klunkerkranich" class="place" data-name="Klunkerkranich" data-coords="52.482158,13.432996" data-color="#CE0058" data-url="/berlin/Klunkerkranich" data-tag="bars" data-src=""></li>
+                            <li id="place_paint-your-style" class="place" data-name="Paint your style" data-coords="52.48993,13.38688" data-color="#CE0058" data-url="/berlin/bergmannkiez/paint-your-style" data-tag="creativetech" data-src=""></li>
+
+                        </ul>
+                        <div class="box">
+
+                            <div class="table">
+                                <div class="table-cell">
+                                    <h2 class="">Neukölln</h2>
+                                    <p>for a fun night exploring bars</p>
+                                </div>
+                            </div>
+                            <p class="curated-by"><br/>
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <!--
+-->
+                <!--
+-->
+                <li id="hood_mitte" style="background:#B3E6D3" data-name="Mitte" data-curator="Mitte is ..." data-url="/berlin/mitte" data-color="#C4534F" data-coords="52.5330055,13.383203" class="">
+                    <a href="/berlin/mitte">
+                        <ul style="display:none">
+
+                            <li id="place_do-you-read-me" class="place" data-name="Do You Read Me?!" data-coords="52.527156, 13.398681" data-color="#F56400" data-url="/berlin/mitte/do-you-read-me" data-tag="shops" data-src="/assets/IMG_5876_Edit.jpg"></li>
+
+                            <li id="place_do-you-read-me" class="place" data-name="SUPRISE" data-coords="52.627156, 13.498681" data-color="#F56400" data-url="/berlin/mitte/do-you-read-me" data-tag="shops" data-src="/assets/IMG_5876_Edit.jpg"></li>
+
+                            <li id="place_parkhaus" class="place" data-name="Parkhaus" data-coords="52.530467, 13.393754" data-color="#F56400" data-url="/berlin/mitte/parkhaus" data-tag="shops" data-src="/assets/IMG_5861_Edit.jpg"></li>
+
+                            <li id="place_alpenstuck-restaurant-bakery" class="place" data-name="Alpenstück Restaurant & Bakery" data-coords="52.530937, 13.391898" data-color="#F56400" data-url="/berlin/mitte/alpenstuck-restaurant-bakery" data-tag="food" data-src="/assets/IMG_5848_Edit.jpg"></li>
+
+                            <li id="place_father-carpenter" class="place" data-name="Father Carpenter Coffee Brewers" data-coords="52.525114, 13.406385" data-color="#F56400" data-url="/berlin/mitte/father-carpenter" data-tag="coffeetea" data-src="/assets/495A0440.JPG"></li>
+
+                            <li id="place_horizn-studios" class="place" data-name="HORIZN STUDIOS" data-coords="52.526797, 13.407365" data-color="#F56400" data-url="/berlin/mitte/horizn-studios" data-tag="shops" data-src="/assets/495A0340.JPG"></li>
+
+                            <li id="place_ok" class="place" data-name="o.k.-Versand" data-coords="52.525723, 13.408333" data-color="#F56400" data-url="/berlin/mitte/ok" data-tag="shops" data-src="/assets/495A0285.JPG"></li>
+
+                            <li id="place_yamyam" class="place" data-name="YamYam" data-coords="52.527753, 13.408305" data-color="#F56400" data-url="/berlin/mitte/yamyam" data-tag="food" data-src="/assets/495A0197.JPG"></li>
+
+                            <li id="place_frau" class="place" data-name="Frau Tulpe" data-coords="52.533319, 13.402025" data-color="#F56400" data-url="/berlin/mitte/frau" data-tag="shops" data-src="/assets/IMG_0031-5.jpg"></li>
+
+                            <li id="place_clarchens-ballhaus" class="place" data-name="Clärchens Ballhaus" data-coords="52.52667, 13.39679" data-color="#F56400" data-url="/berlin/mitte/clarchens-ballhaus" data-tag="food" data-src="/assets/IMG_9989-1.jpg"></li>
+
                         </ul>
                         <div class="box">
                             <div class="table">
                                 <div class="table-cell">
-                                    <h2 class="">Gorli</h2>
-                                    <p>for summer grills in the park</p>
+                                    <h2 class="">Mitte</h2>
+                                    <p>art, events and shops</p>
                                 </div>
                             </div>
                         </div>
-                        </a>
-                    </li>
-                    <!--
-				-->
-                    <!--
-					-->
-          <li id="hood_wrangelkiez" style="background:#B3E6D3" data-name="Wrangelkiez" data-curator=""   data-color="#7C44C1" data-coords="52.50113653,13.44180326" >
-              <ul style="display:none">
-                  <li id="place_19-grams" class="place" data-name="19 grams" data-coords="52.4998956, 13.4445713" data-color="#7C44C1" data-url="" data-tag="coffeetea" data-src=""></li>
-
-              </ul>
-              <div class="box">
-                  <div class="table">
-                      <div class="table-cell">
-                          <h2 class="">Wrangelkiez</h2>
-                            <p>for dinner and drinks with friends</p>
-                      </div>
-                  </div>
-              </div>
-              </a>
-          </li>
-          <!--
+                    </a>
+                </li>
+                <!--
 -->
-<!--
+                <!--
 -->
-<li id="hood_neukolln" style="background:#B3E6D3" data-name="Neukölln" data-curator="" data-url="/berlin/neukolln" data-color="#ffffff" data-coords="52.4773202,13.4422793" class="">
-    <a href="/berlin/neukolln">
-        <ul style="display:none">
-
-            <li id="place_os-kitchen" class="place" data-name="OS Kitchen" data-coords="52.4806440,13.4392610" data-color="#ffffff" data-url="/berlin/neukolln/os-kitchen" data-tag="food" data-src="/assets/001_os_kitchen_tag_2.jpg"></li>
-
-            <li id="place_buchkonigin" class="place" data-name="Buchkönigin" data-coords="52.4893890,13.4263060" data-color="#ffffff" data-url="/berlin/neukolln/buchkonigin" data-tag="shops" data-src="/assets/001_MG_3620.jpg"></li>
-
-            <li id="place_myxa" class="place" data-name="Myxa" data-coords="52.4904100,13.4266500" data-color="#ffffff" data-url="/berlin/neukolln/myxa" data-tag="food" data-src="/assets/001_Myxa-9409.jpg"></li>
-
-            <li id="place_follerei" class="place" data-name="Föllerei" data-coords="52.4874400,13.4376500" data-color="#ffffff" data-url="/berlin/neukolln/follerei" data-tag="food" data-src="/assets/007_MG_6214.jpg"></li>
-
-            <li id="place_lavanderia-vecchia" class="place" data-name="Lavanderia Vecchia" data-coords="52.4811400,13.4264770" data-color="#ffffff" data-url="/berlin/neukolln/lavanderia-vecchia" data-tag="food" data-src="/assets/004_Cover1.jpg"></li>
-
-            <li id="place_beuster-bar" class="place" data-name="Beuster Bar" data-coords="52.4858300,13.4353200" data-color="#ffffff" data-url="/berlin/neukolln/beuster-bar" data-tag="food" data-src="/assets/000_Beuster_012.jpg"></li>
-
-            <li id="place_barini" class="place" data-name="Barini" data-coords="52.4738760,13.4489900" data-color="#ffffff" data-url="/berlin/neukolln/barini" data-tag="food" data-src="/assets/007_onthegrid_barini_langesommer_alinasimmelbauer.jpg"></li>
-
-            <li id="place_rixbox" class="place" data-name="Rixbox" data-coords="52.4793240,13.4374920" data-color="#ffffff" data-url="/berlin/neukolln/rixbox" data-tag="coffeetea" data-src="/assets/000_MG_8964-by-Matthias-Grauwinkel_b.jpg"></li>
-            <li id="place_monotype-gmbh" class="place" data-name="Monotype GmbH" data-coords="52.4900332,13.3872316" data-color="#CE0058" data-url="/berlin/bergmannkiez/monotype-gmbh" data-tag="creativetech" data-src=""></li>
-
-            <li id="place_h-berthold" class="place" data-name="H. Berthold AG" data-coords="52.4921288,13.385605" data-color="#CE0058" data-url="/berlin/bergmannkiez/h-berthold" data-tag="creativetech" data-src="/assets/2015-10-10-Monotype-OnTheGrid-Norman-Posselt-017.jpg"></li>
-
-            <li id="place_zuse" class="place" data-name="Zuse" data-coords="52.4896973,13.3836015" data-color="#CE0058" data-url="/berlin/bergmannkiez/zuse" data-tag="creativetech" data-src="/assets/2015-10-10-Monotype-OnTheGrid-Norman-Posselt-040.jpg"></li>
-
-            <li id="place_colours" class="place" data-name="Colours" data-coords="52.4900364,13.3872263,17z" data-color="#CE0058" data-url="/berlin/bergmannkiez/colours" data-tag="shops" data-src=""></li>
-
-            <li id="place_barcomi" class="place" data-name="Barcomi's" data-coords="52.4890805,13.3916175" data-color="#CE0058" data-url="/berlin/bergmannkiez/barcomi" data-tag="food" data-src="/assets/2015-10-09-Monotype-OnTheGrid-Norman-Posselt-011.jpg"></li>
-
-            <li id="place_chamissoplatz" class="place" data-name="Chamissoplatz" data-coords="52.4881453,13.3911676" data-color="#CE0058" data-url="/berlin/bergmannkiez/chamissoplatz" data-tag="shops" data-src="/assets/2015-10-10-Monotype-OnTheGrid-Norman-Posselt-008.jpg"></li>
-
-            <li id="place_marheineke-markthalle" class="place" data-name="Marheineke Markthalle" data-coords="52.4896837,13.3922266" data-color="#CE0058" data-url="/berlin/bergmannkiez/marheineke-markthalle" data-tag="shops" data-src="/assets/2015-10-20-Monotype-OnTheGrid-Norman-Posselt-001.jpg"></li>
-
-            <li id="place_liebefonts" class="place" data-name="LiebeFonts" data-coords="52.4900733,13.3894672" data-color="#CE0058" data-url="/berlin/bergmannkiez/liebefonts" data-tag="creativetech" data-src="/assets/liebefonts-10-2014-colour-out-pic.png"></li>
-
-            <li id="place_friedhof-dreifaltigkeit-ii" class="place" data-name="Friedhof dreifaltigkeit 2" data-coords="" data-color="#CE0058" data-url="/berlin/bergmannkiez/friedhof-dreifaltigkeit-ii" data-tag="" data-src=""></li>
-
-            <li id="place_olmuhle-an-der-havel" class="place" data-name="Ölmühle an der Havel" data-coords="52.4901421,13.3890198,18.06" data-color="#CE0058" data-url="/berlin/bergmannkiez/olmuhle-an-der-havel" data-tag="shops" data-src="/assets/_MG_4975OP.jpg"></li>
-            <li id="place_Klunkerkranich" class="place" data-name="Klunkerkranich" data-coords="52.482158,13.432996" data-color="#CE0058" data-url="/berlin/Klunkerkranich" data-tag="bars" data-src=""></li>
-            <li id="place_paint-your-style" class="place" data-name="Paint your style" data-coords="52.48993,13.38688" data-color="#CE0058" data-url="/berlin/bergmannkiez/paint-your-style" data-tag="creativetech" data-src=""></li>
-
-        </ul>
-        <div class="box">
-
-            <div class="table">
-                <div class="table-cell">
-                    <h2 class="">Neukölln</h2>
-                      <p>for a fun night exploring bars</p>
-                </div>
-            </div>
-            <p class="curated-by"><br/>
-            </p>
-        </div>
-    </a>
-</li>
-<!--
--->
-<!--
--->
-<li id="hood_mitte" style="background:#B3E6D3" data-name="Mitte" data-curator="Mitte is ..." data-url="/berlin/mitte" data-color="#C4534F" data-coords="52.5330055,13.383203" class="">
-    <a href="/berlin/mitte">
-        <ul style="display:none">
-
-            <li id="place_do-you-read-me" class="place" data-name="Do You Read Me?!" data-coords="52.527156, 13.398681" data-color="#F56400" data-url="/berlin/mitte/do-you-read-me" data-tag="shops" data-src="/assets/IMG_5876_Edit.jpg"></li>
-
-            <li id="place_do-you-read-me" class="place" data-name="SUPRISE" data-coords="52.627156, 13.498681" data-color="#F56400" data-url="/berlin/mitte/do-you-read-me" data-tag="shops" data-src="/assets/IMG_5876_Edit.jpg"></li>
-
-            <li id="place_parkhaus" class="place" data-name="Parkhaus" data-coords="52.530467, 13.393754" data-color="#F56400" data-url="/berlin/mitte/parkhaus" data-tag="shops" data-src="/assets/IMG_5861_Edit.jpg"></li>
-
-            <li id="place_alpenstuck-restaurant-bakery" class="place" data-name="Alpenstück Restaurant & Bakery" data-coords="52.530937, 13.391898" data-color="#F56400" data-url="/berlin/mitte/alpenstuck-restaurant-bakery" data-tag="food" data-src="/assets/IMG_5848_Edit.jpg"></li>
-
-            <li id="place_father-carpenter" class="place" data-name="Father Carpenter Coffee Brewers" data-coords="52.525114, 13.406385" data-color="#F56400" data-url="/berlin/mitte/father-carpenter" data-tag="coffeetea" data-src="/assets/495A0440.JPG"></li>
-
-            <li id="place_horizn-studios" class="place" data-name="HORIZN STUDIOS" data-coords="52.526797, 13.407365" data-color="#F56400" data-url="/berlin/mitte/horizn-studios" data-tag="shops" data-src="/assets/495A0340.JPG"></li>
-
-            <li id="place_ok" class="place" data-name="o.k.-Versand" data-coords="52.525723, 13.408333" data-color="#F56400" data-url="/berlin/mitte/ok" data-tag="shops" data-src="/assets/495A0285.JPG"></li>
-
-            <li id="place_yamyam" class="place" data-name="YamYam" data-coords="52.527753, 13.408305" data-color="#F56400" data-url="/berlin/mitte/yamyam" data-tag="food" data-src="/assets/495A0197.JPG"></li>
-
-            <li id="place_frau" class="place" data-name="Frau Tulpe" data-coords="52.533319, 13.402025" data-color="#F56400" data-url="/berlin/mitte/frau" data-tag="shops" data-src="/assets/IMG_0031-5.jpg"></li>
-
-            <li id="place_clarchens-ballhaus" class="place" data-name="Clärchens Ballhaus" data-coords="52.52667, 13.39679" data-color="#F56400" data-url="/berlin/mitte/clarchens-ballhaus" data-tag="food" data-src="/assets/IMG_9989-1.jpg"></li>
-
-        </ul>
-        <div class="box">
-            <div class="table">
-                <div class="table-cell">
-                    <h2 class="">Mitte</h2>
-                      <p>art, events and shops</p>
-                </div>
-            </div>
-        </div>
-    </a>
-</li>
-<!--
--->
-<!--
--->
-<li id="hood_lichtenberg" style="background:#B3E6D3" data-name="Lichtenberg" data-curator="" data-url="/berlin/lichtenberg" data-color="#fd90a7" data-coords="52.5323094,13.4417569" class="">
-    <a href="/berlin/lichtenberg">
-        <ul style="display:none">
-
-            <li id="place_black-flamingo-agency" class="place" data-name="Black Flamingo Agency" data-coords="52.525181,13.493526" data-color="#fd90a7" data-url="/berlin/lichtenberg/black-flamingo-agency" data-tag="artsculture" data-src="/assets/schauschau_black_flamingo_agency_1.jpg"></li>
-
-            <li id="place_fennpfuhlpark" class="place" data-name="Fennpfuhlpark" data-coords="52.5269532,13.471836" data-color="#fd90a7" data-url="/berlin/lichtenberg/fennpfuhlpark" data-tag="parks" data-src="/assets/schauschau_fennpfuhlpark_1.jpg"></li>
-
-            <li id="place_canteen55" class="place" data-name="Canteen55" data-coords="52.526274,13.4958638" data-color="#fd90a7" data-url="/berlin/lichtenberg/canteen55" data-tag="food" data-src="/assets/_MG_6207.jpg"></li>
-
-            <li id="place_towers-of-veb-elektrokohle" class="place" data-name="Towers of VEB Elektrokohle" data-coords="52.5310032,13.4943099" data-color="#fd90a7" data-url="/berlin/lichtenberg/towers-of-veb-elektrokohle" data-tag="artsculture" data-src="/assets/schauschau_veb_elektrokohle_3.jpg"></li>
-
-            <li id="place_dong-xuan-center" class="place" data-name="Dong Xuan Center" data-coords="52.5283923,13.487649" data-color="#fd90a7" data-url="/berlin/lichtenberg/dong-xuan-center" data-tag="food" data-src="/assets/schauschau_dong_xuan_center_6.jpg"></li>
-
-            <li id="place_haubroks-fahrbereitschaft" class="place" data-name="Haubroks Fahrbereitschaft" data-coords="52.5263627,13.4918203" data-color="#fd90a7" data-url="/berlin/lichtenberg/haubroks-fahrbereitschaft" data-tag="artsculture" data-src="/assets/schauschau_haubroks_fahrbereitschaft_1.jpg"></li>
-
-            <li id="place_hb55" class="place" data-name="HB55" data-coords="52.5247132,13.4983175" data-color="#fd90a7" data-url="/berlin/lichtenberg/hb55" data-tag="creativetech" data-src="/assets/schauschau_hb55_4.jpg"></li>
-
-            <li id="place_landschaftspark-herzberge" class="place" data-name="Landschaftspark Herzberge" data-coords="52.5270163,13.5063967" data-color="#fd90a7" data-url="/berlin/lichtenberg/landschaftspark-herzberge" data-tag="parks" data-src="/assets/schauschau_landschaftspark_herzberge_8-1.jpg"></li>
-
-            <li id="place_umspannwerk" class="place" data-name="Umspannwerk" data-coords="52.5283032,13.494106" data-color="#fd90a7" data-url="/berlin/lichtenberg/umspannwerk" data-tag="artsculture" data-src="/assets/schauschau_umspannwerk_2.jpg"></li>
-
-            <li id="place_central-cemetry-friedrichsfelde" class="place" data-name="Central cemetery Friedrichsfelde" data-coords="52.514738, 13.509022" data-color="#fd90a7" data-url="/berlin/lichtenberg/central-cemetry-friedrichsfelde" data-tag="cemeteries" data-src="/assets/_MG_7082.jpg"></li>
-
-        </ul>
-        <div class="box">
-
-            <div class="table">
-                <div class="table-cell">
-                    <h2 class="">Lichtenberg</h2>
-                      <p>Family chill</p>
-                </div>
-            </div>
-            <p class="curated-by"></p>
-        </div>
-    </a>
-</li>
-<!--
--->
-<!--
--->
-<li id="hood_schoneweide" style="background:#B3E6D3" data-name="Schöneweide" data-curator="" data-url="/berlin/schoneweide" data-color="#FFD700" data-coords="52.4554252,13.4991986" class="">
-    <a href="/berlin/schoneweide">
-        <ul style="display:none">
-
-            <li id="place_behrensbau" class="place" data-name="Behrensbau" data-coords="52.4562803,13.5289239" data-color="#FFD700" data-url="/berlin/schoneweide/behrensbau" data-tag="artsculture" data-src="/assets/DSC09868.jpg"></li>
-
-            <li id="place_funkhaus" class="place" data-name="Funkhaus" data-coords="52.47908, 13.500340000000051" data-color="#FFD700" data-url="/berlin/schoneweide/funkhaus" data-tag="artsculture" data-src="/assets/DSC09527.jpg"></li>
-
-            <li id="place_htw-berlin" class="place" data-name="HTW Berlin" data-coords="52.49222, 13.526499999999942" data-color="#FFD700" data-url="/berlin/schoneweide/htw-berlin" data-tag="creativetech" data-src="/assets/DSC09842.jpg"></li>
-
-            <li id="place_kaos" class="place" data-name="KAOS" data-coords="52.462629,13.50922" data-color="#FFD700" data-url="/berlin/schoneweide/kaos" data-tag="creativetech" data-src="/assets/DSC09983.jpg"></li>
-
-            <li id="place_aeg" class="place" data-name="AEG" data-coords="52.4603711,13.5189042" data-color="#FFD700" data-url="/berlin/schoneweide/aeg" data-tag="artsculture" data-src="/assets/DSC09979.jpg"></li>
-
-            <li id="place_kaisersteg" class="place" data-name="Kaisersteg" data-coords="52.4585971,13.5157684" data-color="#FFD700" data-url="/berlin/schoneweide/kaisersteg" data-tag="artsculture" data-src="/assets/DSC08920.jpg"></li>
-
-            <li id="place_bett" class="place" data-name="BETT" data-coords="52.4625468,13.5152195" data-color="#FFD700" data-url="/berlin/schoneweide/bett" data-tag="artsculture" data-src="/assets/DSC09969.jpg"></li>
-
-            <li id="place_wuhlheide" class="place" data-name="Wuhlheide" data-coords="52.4618605,13.5430266" data-color="#FFD700" data-url="/berlin/schoneweide/wuhlheide" data-tag="parks" data-src="/assets/DSC08992-1.jpg"></li>
-
-            <li id="place_sehen-und-ernten" class="place" data-name="sehen und ernten" data-coords="52.459499,13.523624" data-color="#FFD700" data-url="/berlin/schoneweide/sehen-und-ernten" data-tag="creativetech" data-src="/assets/DSC09825-2.jpg"></li>
-
-            <li id="place_kranhaus-cafe" class="place" data-name="Kranhaus Café" data-coords="52.4542055,13.5287355" data-color="#FFD700" data-url="/berlin/schoneweide/kranhaus-cafe" data-tag="coffeetea" data-src="/assets/DSC09890 (1).jpg"></li>
-
-        </ul>
-        <div class="box">
-
-            <div class="table">
-                <div class="table-cell">
-                    <h2 class="">Schöneweide</h2>
-                </div>
-            </div>
-            <p class="curated-by"></p>
-
-
-        </div>
-    </a>
-</li>
-<!--
--->
-<!--
--->
-<li id="hood_prenzlauer-berg" style="background:#B3E6D3" data-name="Prenzlauer Berg" data-curator="" data-url="/berlin/prenzlauer-berg" data-color="#D987FF" data-coords="52.5392514,13.4345288" class="">
-    <a href="/berlin/prenzlauer-berg">
-        <ul style="display:none">
-
-            <li id="place_fraulein-kimchi" class="place" data-name="Fräulein Kimchi" data-coords="@52.5342565,13.4162101" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/fraulein-kimchi" data-tag="food" data-src="/assets/DSC01971.jpg"></li>
-
-            <li id="place_victoria-met-albert" class="place" data-name="Victoria Met Albert" data-coords="52.54296,13.418586" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/victoria-met-albert" data-tag="shops" data-src="/assets/DSC01574-1.jpg"></li>
-
-            <li id="place_umami" class="place" data-name="Umami" data-coords="52.5344894,13.417245" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/umami" data-tag="food" data-src="/assets/DSC01722-1.jpg"></li>
-
-            <li id="place_ting" class="place" data-name="Ting" data-coords="52.5372317,13.420714" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/ting" data-tag="shops" data-src="/assets/DSC01554-1.jpg"></li>
-
-            <li id="place_suicide-sue" class="place" data-name="Suicide Sue" data-coords="52.540658,13.417115" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/suicide-sue" data-tag="coffeetea" data-src="/assets/DSC01873-1.jpg"></li>
-
-            <li id="place_standard-pizza" class="place" data-name="Standard Pizza" data-coords="52.5329046,13.4063835" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/standard-pizza" data-tag="food" data-src="/assets/DSC01768-1.jpg"></li>
-
-            <li id="place_salt-n-bone" class="place" data-name="Salt n Bone" data-coords="52.5444079,13.4175555" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/salt-n-bone" data-tag="bars" data-src="/assets/DSC01947-1.jpg"></li>
-
-            <li id="place_no-fire-no-glory" class="place" data-name="No Fire No Glory" data-coords="52.5366659,13.4182622" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/no-fire-no-glory" data-tag="coffeetea" data-src="/assets/DSC01442-1.jpg"></li>
-
-            <li id="place_le-croco-bleu" class="place" data-name="Le Croco Bleu" data-coords="52.53045,13.4154013" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/le-croco-bleu" data-tag="bars" data-src="/assets/1305_mtervoort_shooting_boetzow_0342_final-1.jpg"></li>
-
-            <li id="place_kollwitzplatz-farmers-market" class="place" data-name="Kollwitzplatz Farmers Market" data-coords="52.5362274,13.4147787" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/kollwitzplatz-farmers-market" data-tag="food" data-src="/assets/DSC01465-1.jpg"></li>
-
-            <li id="place_kilda" class="place" data-name="Kilda" data-coords="52.53205,13.4301113" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/kilda" data-tag="shops" data-src="/assets/DSC01674-1.jpg"></li>
-
-            <li id="place_anna-blume" class="place" data-name="Anna Blume" data-coords="52.5380587,13.4174598" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/anna-blume" data-tag="food" data-src="/assets/DSC01824-1.jpg"></li>
-
-            <li id="place_lecker-song" class="place" data-name="Lecker Song" data-coords="52.544164,13.4180273" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/lecker-song" data-tag="food" data-src="/assets/DSC01608-1.jpg"></li>
-
-            <li id="place_kapital" class="place" data-name="Kapital ist ein scheues Reh" data-coords="52.53825,13.4092513" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/kapital" data-tag="bars" data-src="/assets/DSC01744-1.jpg"></li>
-
-            <li id="place_jubel" class="place" data-name="Jubel" data-coords="52.5322864,13.4283346" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/jubel" data-tag="sweets" data-src="/assets/DSC01653-1.jpg"></li>
-
-            <li id="place_hokey-pokey" class="place" data-name="Hokey Pokey" data-coords="52.5469829,13.4153556" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/hokey-pokey" data-tag="sweets" data-src="/assets/DSC01620-1.jpg"></li>
-
-            <li id="place_w-der-imbiss" class="place" data-name="W-Der Imbiss" data-coords="52.5342942,13.4029391" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/w-der-imbiss" data-tag="food" data-src="/assets/DSC01903-1.jpg"></li>
-
-            <li id="place_book-exchange" class="place" data-name="Book Exchange" data-coords="52.538189,13.4190775" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/book-exchange" data-tag="artsculture" data-src="/assets/DSC01487-1.jpg"></li>
-
-            <li id="place_bonanza-coffee-heroes" class="place" data-name="Bonanza Coffee Heroes" data-coords="52.5399771,13.4031855" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/bonanza-coffee-heroes" data-tag="food" data-src="/assets/DSC01511-1.jpg"></li>
-
-            <li id="place_betty-n-caty" class="place" data-name="Betty’n Caty" data-coords="52.5341994,13.4179733" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/betty-n-caty" data-tag="food" data-src="/assets/DSC01431-2.jpg"></li>
-
-            <li id="place_maria-bonita" class="place" data-name="Maria Bonita" data-coords="52.5404243,13.4160107" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/maria-bonita" data-tag="food" data-src="/assets/DSC01784-1.jpg"></li>
-
-            <li id="place_mauer-park-flea-market" class="place" data-name="Mauerpark Flea Market" data-coords="52.5427216,13.4018543" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/mauer-park-flea-market" data-tag="parks" data-src="/assets/DSC01366.jpg"></li>
-
-        </ul>
-        <div class="box">
-
-            <div class="table">
-                <div class="table-cell">
-
-                    <h2 class="">Prenzlauer Berg</h2>
-                      <p>cafes and cute shops</p>
-                </div>
-            </div>
-        </div>
-    </a>
-</li>
-<!--
---><!--
--->
-<li id="hood_Volkspark" style="background:#B3E6D3" data-name="Volkspark" data-curator="" data-url="/berlin/Volkspark" data-color="#D987FF" data-coords="52.53205,13.4301113" class="">
-    <a href="/berlin/Volkspark">
-        <ul style="display:none">
-
-            <li id="place_kilda" class="place" data-name="Kilda" data-coords="52.53205,13.4301113" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/kilda" data-tag="shops" data-src="/assets/DSC01674-1.jpg"></li>
-
-            <li id="place_jubel" class="place" data-name="Jubel" data-coords="52.5322864,13.4283346" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/jubel" data-tag="sweets" data-src="/assets/DSC01653-1.jpg"></li>
-
-
-        </ul>
-        <div class="box">
-
-            <div class="table">
-                <div class="table-cell">
-
-                    <h2 class="">Volkspark Friedrichshain</h2>
-                    <p>park chills</p>
-                </div>
-            </div>
-            <p class="curated-by"></p>
-
-        </div>
-    </a>
-</li>
-<!--
--->
-          <!--
--->
-                    <li id="hood_treptow" style="background:#B3E6D3" data-name="Treptow" data-curator=""   data-color="#02a388" data-coords="52.4895586,13.4612843" >
-
+                <li id="hood_lichtenberg" style="background:#B3E6D3" data-name="Lichtenberg" data-curator="" data-url="/berlin/lichtenberg" data-color="#fd90a7" data-coords="52.5323094,13.4417569" class="">
+                    <a href="/berlin/lichtenberg">
                         <ul style="display:none">
 
-                            <li id="place_passanger-coffee" class="place" data-name="Passanger Coffee" data-coords="" data-color="#02a388" data-url="/berlin/treptow/passanger-coffee" data-tag="" data-src=""></li>
+                            <li id="place_black-flamingo-agency" class="place" data-name="Black Flamingo Agency" data-coords="52.525181,13.493526" data-color="#fd90a7" data-url="/berlin/lichtenberg/black-flamingo-agency" data-tag="artsculture" data-src="/assets/schauschau_black_flamingo_agency_1.jpg"></li>
+
+                            <li id="place_fennpfuhlpark" class="place" data-name="Fennpfuhlpark" data-coords="52.5269532,13.471836" data-color="#fd90a7" data-url="/berlin/lichtenberg/fennpfuhlpark" data-tag="parks" data-src="/assets/schauschau_fennpfuhlpark_1.jpg"></li>
+
+                            <li id="place_canteen55" class="place" data-name="Canteen55" data-coords="52.526274,13.4958638" data-color="#fd90a7" data-url="/berlin/lichtenberg/canteen55" data-tag="food" data-src="/assets/_MG_6207.jpg"></li>
+
+                            <li id="place_towers-of-veb-elektrokohle" class="place" data-name="Towers of VEB Elektrokohle" data-coords="52.5310032,13.4943099" data-color="#fd90a7" data-url="/berlin/lichtenberg/towers-of-veb-elektrokohle" data-tag="artsculture" data-src="/assets/schauschau_veb_elektrokohle_3.jpg"></li>
+
+                            <li id="place_dong-xuan-center" class="place" data-name="Dong Xuan Center" data-coords="52.5283923,13.487649" data-color="#fd90a7" data-url="/berlin/lichtenberg/dong-xuan-center" data-tag="food" data-src="/assets/schauschau_dong_xuan_center_6.jpg"></li>
+
+                            <li id="place_haubroks-fahrbereitschaft" class="place" data-name="Haubroks Fahrbereitschaft" data-coords="52.5263627,13.4918203" data-color="#fd90a7" data-url="/berlin/lichtenberg/haubroks-fahrbereitschaft" data-tag="artsculture" data-src="/assets/schauschau_haubroks_fahrbereitschaft_1.jpg"></li>
+
+                            <li id="place_hb55" class="place" data-name="HB55" data-coords="52.5247132,13.4983175" data-color="#fd90a7" data-url="/berlin/lichtenberg/hb55" data-tag="creativetech" data-src="/assets/schauschau_hb55_4.jpg"></li>
+
+                            <li id="place_landschaftspark-herzberge" class="place" data-name="Landschaftspark Herzberge" data-coords="52.5270163,13.5063967" data-color="#fd90a7" data-url="/berlin/lichtenberg/landschaftspark-herzberge" data-tag="parks" data-src="/assets/schauschau_landschaftspark_herzberge_8-1.jpg"></li>
+
+                            <li id="place_umspannwerk" class="place" data-name="Umspannwerk" data-coords="52.5283032,13.494106" data-color="#fd90a7" data-url="/berlin/lichtenberg/umspannwerk" data-tag="artsculture" data-src="/assets/schauschau_umspannwerk_2.jpg"></li>
+
+                            <li id="place_central-cemetry-friedrichsfelde" class="place" data-name="Central cemetery Friedrichsfelde" data-coords="52.514738, 13.509022" data-color="#fd90a7" data-url="/berlin/lichtenberg/central-cemetry-friedrichsfelde" data-tag="cemeteries" data-src="/assets/_MG_7082.jpg"></li>
 
                         </ul>
                         <div class="box">
 
                             <div class="table">
                                 <div class="table-cell">
+                                    <h2 class="">Lichtenberg</h2>
+                                    <p>Family chill</p>
+                                </div>
+                            </div>
+                            <p class="curated-by"></p>
+                        </div>
+                    </a>
+                </li>
+                <!--
+-->
+                <!--
+-->
+                <li id="hood_schoneweide" style="background:#B3E6D3" data-name="Schöneweide" data-curator="" data-url="/berlin/schoneweide" data-color="#FFD700" data-coords="52.4554252,13.4991986" class="">
+                    <a href="/berlin/schoneweide">
+                        <ul style="display:none">
+
+                            <li id="place_behrensbau" class="place" data-name="Behrensbau" data-coords="52.4562803,13.5289239" data-color="#FFD700" data-url="/berlin/schoneweide/behrensbau" data-tag="artsculture" data-src="/assets/DSC09868.jpg"></li>
+
+                            <li id="place_funkhaus" class="place" data-name="Funkhaus" data-coords="52.47908, 13.500340000000051" data-color="#FFD700" data-url="/berlin/schoneweide/funkhaus" data-tag="artsculture" data-src="/assets/DSC09527.jpg"></li>
+
+                            <li id="place_htw-berlin" class="place" data-name="HTW Berlin" data-coords="52.49222, 13.526499999999942" data-color="#FFD700" data-url="/berlin/schoneweide/htw-berlin" data-tag="creativetech" data-src="/assets/DSC09842.jpg"></li>
+
+                            <li id="place_kaos" class="place" data-name="KAOS" data-coords="52.462629,13.50922" data-color="#FFD700" data-url="/berlin/schoneweide/kaos" data-tag="creativetech" data-src="/assets/DSC09983.jpg"></li>
+
+                            <li id="place_aeg" class="place" data-name="AEG" data-coords="52.4603711,13.5189042" data-color="#FFD700" data-url="/berlin/schoneweide/aeg" data-tag="artsculture" data-src="/assets/DSC09979.jpg"></li>
+
+                            <li id="place_kaisersteg" class="place" data-name="Kaisersteg" data-coords="52.4585971,13.5157684" data-color="#FFD700" data-url="/berlin/schoneweide/kaisersteg" data-tag="artsculture" data-src="/assets/DSC08920.jpg"></li>
+
+                            <li id="place_bett" class="place" data-name="BETT" data-coords="52.4625468,13.5152195" data-color="#FFD700" data-url="/berlin/schoneweide/bett" data-tag="artsculture" data-src="/assets/DSC09969.jpg"></li>
+
+                            <li id="place_wuhlheide" class="place" data-name="Wuhlheide" data-coords="52.4618605,13.5430266" data-color="#FFD700" data-url="/berlin/schoneweide/wuhlheide" data-tag="parks" data-src="/assets/DSC08992-1.jpg"></li>
+
+                            <li id="place_sehen-und-ernten" class="place" data-name="sehen und ernten" data-coords="52.459499,13.523624" data-color="#FFD700" data-url="/berlin/schoneweide/sehen-und-ernten" data-tag="creativetech" data-src="/assets/DSC09825-2.jpg"></li>
+
+                            <li id="place_kranhaus-cafe" class="place" data-name="Kranhaus Café" data-coords="52.4542055,13.5287355" data-color="#FFD700" data-url="/berlin/schoneweide/kranhaus-cafe" data-tag="coffeetea" data-src="/assets/DSC09890 (1).jpg"></li>
+
+                        </ul>
+                        <div class="box">
+
+                            <div class="table">
+                                <div class="table-cell">
+                                    <h2 class="">Schöneweide</h2>
+                                </div>
+                            </div>
+                            <p class="curated-by"></p>
+
+
+                        </div>
+                    </a>
+                </li>
+                <!--
+-->
+                <!--
+-->
+                <li id="hood_prenzlauer-berg" style="background:#B3E6D3" data-name="Prenzlauer Berg" data-curator="" data-url="/berlin/prenzlauer-berg" data-color="#D987FF" data-coords="52.5392514,13.4345288" class="">
+                    <a href="/berlin/prenzlauer-berg">
+                        <ul style="display:none">
+
+                            <li id="place_fraulein-kimchi" class="place" data-name="Fräulein Kimchi" data-coords="@52.5342565,13.4162101" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/fraulein-kimchi" data-tag="food" data-src="/assets/DSC01971.jpg"></li>
+
+                            <li id="place_victoria-met-albert" class="place" data-name="Victoria Met Albert" data-coords="52.54296,13.418586" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/victoria-met-albert" data-tag="shops" data-src="/assets/DSC01574-1.jpg"></li>
+
+                            <li id="place_umami" class="place" data-name="Umami" data-coords="52.5344894,13.417245" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/umami" data-tag="food" data-src="/assets/DSC01722-1.jpg"></li>
+
+                            <li id="place_ting" class="place" data-name="Ting" data-coords="52.5372317,13.420714" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/ting" data-tag="shops" data-src="/assets/DSC01554-1.jpg"></li>
+
+                            <li id="place_suicide-sue" class="place" data-name="Suicide Sue" data-coords="52.540658,13.417115" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/suicide-sue" data-tag="coffeetea" data-src="/assets/DSC01873-1.jpg"></li>
+
+                            <li id="place_standard-pizza" class="place" data-name="Standard Pizza" data-coords="52.5329046,13.4063835" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/standard-pizza" data-tag="food" data-src="/assets/DSC01768-1.jpg"></li>
+
+                            <li id="place_salt-n-bone" class="place" data-name="Salt n Bone" data-coords="52.5444079,13.4175555" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/salt-n-bone" data-tag="bars" data-src="/assets/DSC01947-1.jpg"></li>
+
+                            <li id="place_no-fire-no-glory" class="place" data-name="No Fire No Glory" data-coords="52.5366659,13.4182622" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/no-fire-no-glory" data-tag="coffeetea" data-src="/assets/DSC01442-1.jpg"></li>
+
+                            <li id="place_le-croco-bleu" class="place" data-name="Le Croco Bleu" data-coords="52.53045,13.4154013" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/le-croco-bleu" data-tag="bars" data-src="/assets/1305_mtervoort_shooting_boetzow_0342_final-1.jpg"></li>
+
+                            <li id="place_kollwitzplatz-farmers-market" class="place" data-name="Kollwitzplatz Farmers Market" data-coords="52.5362274,13.4147787" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/kollwitzplatz-farmers-market" data-tag="food" data-src="/assets/DSC01465-1.jpg"></li>
+
+                            <li id="place_kilda" class="place" data-name="Kilda" data-coords="52.53205,13.4301113" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/kilda" data-tag="shops" data-src="/assets/DSC01674-1.jpg"></li>
+
+                            <li id="place_anna-blume" class="place" data-name="Anna Blume" data-coords="52.5380587,13.4174598" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/anna-blume" data-tag="food" data-src="/assets/DSC01824-1.jpg"></li>
+
+                            <li id="place_lecker-song" class="place" data-name="Lecker Song" data-coords="52.544164,13.4180273" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/lecker-song" data-tag="food" data-src="/assets/DSC01608-1.jpg"></li>
+
+                            <li id="place_kapital" class="place" data-name="Kapital ist ein scheues Reh" data-coords="52.53825,13.4092513" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/kapital" data-tag="bars" data-src="/assets/DSC01744-1.jpg"></li>
+
+                            <li id="place_jubel" class="place" data-name="Jubel" data-coords="52.5322864,13.4283346" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/jubel" data-tag="sweets" data-src="/assets/DSC01653-1.jpg"></li>
+
+                            <li id="place_hokey-pokey" class="place" data-name="Hokey Pokey" data-coords="52.5469829,13.4153556" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/hokey-pokey" data-tag="sweets" data-src="/assets/DSC01620-1.jpg"></li>
+
+                            <li id="place_w-der-imbiss" class="place" data-name="W-Der Imbiss" data-coords="52.5342942,13.4029391" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/w-der-imbiss" data-tag="food" data-src="/assets/DSC01903-1.jpg"></li>
+
+                            <li id="place_book-exchange" class="place" data-name="Book Exchange" data-coords="52.538189,13.4190775" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/book-exchange" data-tag="artsculture" data-src="/assets/DSC01487-1.jpg"></li>
+
+                            <li id="place_bonanza-coffee-heroes" class="place" data-name="Bonanza Coffee Heroes" data-coords="52.5399771,13.4031855" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/bonanza-coffee-heroes" data-tag="food" data-src="/assets/DSC01511-1.jpg"></li>
+
+                            <li id="place_betty-n-caty" class="place" data-name="Betty’n Caty" data-coords="52.5341994,13.4179733" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/betty-n-caty" data-tag="food" data-src="/assets/DSC01431-2.jpg"></li>
+
+                            <li id="place_maria-bonita" class="place" data-name="Maria Bonita" data-coords="52.5404243,13.4160107" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/maria-bonita" data-tag="food" data-src="/assets/DSC01784-1.jpg"></li>
+
+                            <li id="place_mauer-park-flea-market" class="place" data-name="Mauerpark Flea Market" data-coords="52.5427216,13.4018543" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/mauer-park-flea-market" data-tag="parks" data-src="/assets/DSC01366.jpg"></li>
+
+                        </ul>
+                        <div class="box">
+
+                            <div class="table">
+                                <div class="table-cell">
+
+                                    <h2 class="">Prenzlauer Berg</h2>
+                                    <p>cafes and cute shops</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <!--
+-->
+                <!--
+-->
+                <li id="hood_Volkspark" style="background:#B3E6D3" data-name="Volkspark" data-curator="" data-url="/berlin/Volkspark" data-color="#D987FF" data-coords="52.53205,13.4301113" class="">
+                    <a href="/berlin/Volkspark">
+                        <ul style="display:none">
+
+                            <li id="place_kilda" class="place" data-name="Kilda" data-coords="52.53205,13.4301113" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/kilda" data-tag="shops" data-src="/assets/DSC01674-1.jpg"></li>
+
+                            <li id="place_jubel" class="place" data-name="Jubel" data-coords="52.5322864,13.4283346" data-color="#D987FF" data-url="/berlin/prenzlauer-berg/jubel" data-tag="sweets" data-src="/assets/DSC01653-1.jpg"></li>
+
+
+                        </ul>
+                        <div class="box">
+
+                            <div class="table">
+                                <div class="table-cell">
+
+                                    <h2 class="">Volkspark Friedrichshain</h2>
+                                    <p>park chills</p>
+                                </div>
+                            </div>
+                            <p class="curated-by"></p>
+
+                        </div>
+                    </a>
+                </li>
+                <!--
+-->
+                <!--
+-->
+                <li id="hood_treptow" style="background:#B3E6D3" data-name="Treptow" data-curator="" data-color="#02a388" data-coords="52.4895586,13.4612843">
+
+                    <ul style="display:none">
+
+                        <li id="place_passanger-coffee" class="place" data-name="Passanger Coffee" data-coords="" data-color="#02a388" data-url="/berlin/treptow/passanger-coffee" data-tag="" data-src=""></li>
+
+                    </ul>
+                    <div class="box">
+
+                        <div class="table">
+                            <div class="table-cell">
                                 <h2 class="">Treptow</h2>
-                                </div>
                             </div>
                         </div>
-                        </a>
-                    </li>
-                    <!--
+                    </div>
+                    </a>
+                </li>
+                <!--
 				-->
-                    <!--
+                <!--
 					-->
-                    <li id="hood_tiergarten" style="background:#B3E6D3" data-name="Tiergarten" data-curator=""   data-color="#E50050" data-coords="52.5108066,13.3362923" >
+                <li id="hood_tiergarten" style="background:#B3E6D3" data-name="Tiergarten" data-curator="" data-color="#E50050" data-coords="52.5108066,13.3362923">
 
-                        <ul style="display:none">
-                            <li id="place_Café am Neuen See" class="place" data-name="Café am Neuen See" data-coords="52.5107339,13.3446551" data-color="#E50050" data-url="" data-tag="food" data-src=""></li>
-                            <li id="place_C/O Berlin" class="place" data-name="C/O Berlin" data-coords="52.50663, 13.33067" data-color="#E50050" data-url="" data-tag="artsculture" data-src=""></li>
-                            <li id="place_Monkey Bar" class="place" data-name="Monkey Bar" data-coords="52.50572, 13.33776" data-color="#E50050" data-url="" data-tag="bars" data-src=""></li>
-                            <li id="place_Bikini Berlin" class="place" data-name="Bikini Berlin" data-coords="52.5054936, 13.3358317" data-color="#E50050" data-url="" data-tag="shops" data-src=""></li>
-                        </ul>
-                        <div class="box">
+                    <ul style="display:none">
+                        <li id="place_Café am Neuen See" class="place" data-name="Café am Neuen See" data-coords="52.5107339,13.3446551" data-color="#E50050" data-url="" data-tag="food" data-src=""></li>
+                        <li id="place_C/O Berlin" class="place" data-name="C/O Berlin" data-coords="52.50663, 13.33067" data-color="#E50050" data-url="" data-tag="artsculture" data-src=""></li>
+                        <li id="place_Monkey Bar" class="place" data-name="Monkey Bar" data-coords="52.50572, 13.33776" data-color="#E50050" data-url="" data-tag="bars" data-src=""></li>
+                        <li id="place_Bikini Berlin" class="place" data-name="Bikini Berlin" data-coords="52.5054936, 13.3358317" data-color="#E50050" data-url="" data-tag="shops" data-src=""></li>
+                    </ul>
+                    <div class="box">
 
-                            <div class="table">
-                                <div class="table-cell">
-                                    <h2 class="">Tiergarten</h2>
+                        <div class="table">
+                            <div class="table-cell">
+                                <h2 class="">Tiergarten</h2>
 
-                                </div>
                             </div>
-
                         </div>
-                        </a>
-                    </li>
-                    <!--
+
+                    </div>
+                    </a>
+                </li>
+                <!--
 				-->
-                    <!--
+                <!--
 					-->
 
-                    <li id="hood_charlottenberg" style="background:#B3E6D3" data-name="Charlottenberg" data-curator=""   data-color="#6abf20" data-coords="52.5155893,13.2761299" >
+                <li id="hood_charlottenberg" style="background:#B3E6D3" data-name="Charlottenberg" data-curator="" data-color="#6abf20" data-coords="52.5155893,13.2761299">
 
-                        <ul style="display:none">
+                    <ul style="display:none">
 
-                            <li id="place_sample-post" class="place" data-name="Sample Post " data-coords="" data-color="#6abf20" data-url="/berlin/charlottenberg/sample-post" data-tag="" data-src=""></li>
+                        <li id="place_sample-post" class="place" data-name="Sample Post " data-coords="" data-color="#6abf20" data-url="/berlin/charlottenberg/sample-post" data-tag="" data-src=""></li>
 
-                        </ul>
-                        <div class="box">
+                    </ul>
+                    <div class="box">
 
-                            <div class="table">
-                                <div class="table-cell">
+                        <div class="table">
+                            <div class="table-cell">
 
-                                    <h2 class="">Charlottenberg</h2>
-                                </div>
+                                <h2 class="">Charlottenberg</h2>
                             </div>
                         </div>
-                        </a>
-                    </li>
-                    <!--
+                    </div>
+                    </a>
+                </li>
+                <!--
 				-->
-                    <!--
+                <!--
 					-->
-                    <li id="hood_wedding" style="background:#B3E6D3" data-name="Wedding" data-curator=""   data-color="#00f6ff" data-coords="52.550031,13.3022044" >
+                <li id="hood_wedding" style="background:#B3E6D3" data-name="Wedding" data-curator="" data-color="#00f6ff" data-coords="52.550031,13.3022044">
 
-                        <ul style="display:none">
-                            <li id="place_City Kino" class="place" data-name="City Kino" data-coords="52.5584, 13.3390" data-color="#00f6ff" data-url="" data-tag="artsculture" data-src=""></li>
+                    <ul style="display:none">
+                        <li id="place_City Kino" class="place" data-name="City Kino" data-coords="52.5584, 13.3390" data-color="#00f6ff" data-url="" data-tag="artsculture" data-src=""></li>
 
 
-                        </ul>
-                        <div class="box">
-                            <div class="table">
-                                <div class="table-cell">
-                                    <h2 class="">Wedding</h2>
-                                </div>
+                    </ul>
+                    <div class="box">
+                        <div class="table">
+                            <div class="table-cell">
+                                <h2 class="">Wedding</h2>
                             </div>
                         </div>
-                        </a>
-                    </li>
-                    <!--
+                    </div>
+                    </a>
+                </li>
+                <!--
 				-->
-                </ul>
-            </nav>
-        </div>
+            </ul>
+        </nav>
+    </div>
 
     </div>
     <!-- /wrap -->
